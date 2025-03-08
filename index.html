@@ -3,23 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>HydroFlux - Climate & Code</title>
     <style>
+        /* Minimalist Styling */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 20px;
-            text-align: center;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #2c3e50;
+            line-height: 1.6;
         }
-        h1 { color: #333; }
-        p { max-width: 600px; margin: 20px auto; }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #16a085;
+        }
+        h2 {
+            font-size: 1.5em;
+            font-weight: normal;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #16a085;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .project-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 200px;
+            text-align: left;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to [Your Name]'s Portfolio</h1>
-    <p>Hi! I’m [Your Name], a [your profession, e.g., web developer, data scientist, etc.]. I work on [briefly describe your work or interests, e.g., building cool apps, analyzing data, etc.].</p>
-    <h2>Projects</h2>
-    <p>[List a project or two. E.g., "Project 1: A web app built with React."]</p>
-    <p>Check out my GitHub for more: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+    <div class="container">
+        <!-- Header -->
+        <h1>HydroFlux</h1>
+        <h2>Climate Modeling | Land & Water Resources | Code</h2>
+
+        <!-- About -->
+        <div class="section">
+            <p>I’m a climate enthusiast and programmer, working at the intersection of data, modeling, and environmental impact.</p>
+            <p>I build tools and models to project climate change effects on land and water resources.</p>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <strong>ClimateFlow</strong>
+                    <p>A model to predict water resource shifts under climate scenarios.</p>
+                </div>
+                <div class="project-card">
+                    <strong>LandPulse</strong>
+                    <p>Data-driven tool for land use change analysis.</p>
+                </div>
+                <div class="project-card">
+                    <strong>FluxCode</strong>
+                    <p>Open-source Python library for climate data processing.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Links -->
+        <div class="section">
+            <p><a href="https://github.com/HydroFlux">GitHub</a> | <a href="mailto:your.email@example.com">Email</a></p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 HydroFlux. Powered by curiosity and code.</p>
+        </footer>
+    </div>
 </body>
 </html>
